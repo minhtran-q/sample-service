@@ -9,7 +9,6 @@ public class NumberValidation implements ConstraintValidator<IsNumber, String> {
 
   @Override
   public boolean isValid(String value, ConstraintValidatorContext context) {
-    boolean parsable = NumberUtils.isParsable(value);
-    return parsable;
+    return NumberUtils.isParsable(value);
   }
 }
