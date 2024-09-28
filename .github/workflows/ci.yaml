@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - lite_version
+      - ecs_version
 
 jobs:
   build:
